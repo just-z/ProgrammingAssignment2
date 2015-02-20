@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The following function calculates the inverse of the matrix created with the above function and stores it in cache.
-## If the inverse hasn already been calculated it gets the mean from the cache and skips the computation.
+## If the inverse has already been calculated it gets the mean from the cache and skips the computation.
 
 
 cacheSolve <- function(x, ...) {
